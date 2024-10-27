@@ -8,10 +8,14 @@ body{
 }
 
 .parent{
+    height: 500px;
+    border: 1px solid black;
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: start;
+align-items: start;
 flex-wrap: wrap-reverse;
+align-content: space-between;
 
 }
 
@@ -20,5 +24,5 @@ flex-wrap: wrap-reverse;
     height: 50px;
     border: 2px solid green;
     background-color: greenyellow;
-    margin: 5px;
+   
 }
