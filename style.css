@@ -51,3 +51,9 @@ h2,h3 {
     justify-content: space-around;
     margin-bottom: 25px;
 }
+.namber{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+
+}
